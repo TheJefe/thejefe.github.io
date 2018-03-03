@@ -3,8 +3,21 @@
 
 @import "bootstrap";
 
-#forkme_banner{
-    visibility: hidden;
+nav.navbar{
+    background: #212121;
+    background: -moz-linear-gradient(top, #373737, #212121);
+    background: -webkit-linear-gradient(top, #373737, #212121);
+    background: -ms-linear-gradient(top, #373737, #212121);
+    background: -o-linear-gradient(top, #373737, #212121);
+    background: linear-gradient(top, #373737, #212121);
+    min-height: 168px;
+    // Animation
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+nav.navbar.shrink {
+    min-height: 50px;
 }
 
 #profile_pic{
@@ -14,20 +27,12 @@
     max-width: 100px;
     margin-right: 20px;
     border-radius: 50%;
+    transition: all 0.5s ease;
 }
 
-#header_wrap {
-    background: #212121;
-    background: -moz-linear-gradient(top, #373737, #212121);
-    background: -webkit-linear-gradient(top, #373737, #212121);
-    background: -ms-linear-gradient(top, #373737, #212121);
-    background: -o-linear-gradient(top, #373737, #212121);
-    background: linear-gradient(top, #373737, #212121);
-    position: fixed;
-}
-
-#header_wrap .inner {
-    padding: 50px 10px 30px 10px;
+#profile_pic.shrink{
+    max-height: 50px;
+    max-width: 50px;
 }
 
 #project_title {
@@ -36,6 +41,11 @@
     font-size: 42px;
     font-weight: 700;
     text-shadow: #111 0px 0px 10px;
+    transition: all 0.5s ease;
+}
+
+#project_title.shrink{
+    font-size: 30px;
 }
 
 #project_tagline {
@@ -44,6 +54,7 @@
     font-weight: 300;
     background: none;
     text-shadow: #111 0px 0px 10px;
+    transition: all 0.5s ease;
 }
 
 #main_content_wrap {
@@ -53,7 +64,7 @@
 }
 
 #main_content {
-    margin-top: 230px;
+    margin-top: 180px;
 }
 
 #footer_wrap {
