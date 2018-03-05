@@ -10,7 +10,6 @@ nav.navbar{
     background: -ms-linear-gradient(top, #373737, #212121);
     background: -o-linear-gradient(top, #373737, #212121);
     background: linear-gradient(top, #373737, #212121);
-    min-height: 168px;
     // Animation
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -50,7 +49,7 @@ nav.navbar.shrink {
 
 #project_tagline {
     color: #fff;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 300;
     background: none;
     text-shadow: #111 0px 0px 10px;
@@ -64,7 +63,7 @@ nav.navbar.shrink {
 }
 
 #main_content {
-    margin-top: 180px;
+    margin-top: 140px;
 }
 
 #footer_wrap {
