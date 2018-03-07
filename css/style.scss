@@ -3,6 +3,11 @@
 
 @import "bootstrap";
 
+body {
+    /* font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
 nav.navbar{
     background: #212121;
     background: -moz-linear-gradient(top, #373737, #212121);
@@ -95,7 +100,7 @@ li:before {
     /*Using a Bootstrap glyphicon as the bullet point*/
     content: "\e007";
     font-family: 'Glyphicons Halflings';
-    font-size: 9px;
+    font-size: 10px;
     float: left;
     margin-top: 4px;
     margin-left: -17px;
