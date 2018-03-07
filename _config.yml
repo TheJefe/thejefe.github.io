@@ -8,13 +8,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-plugins:
-  - jekyll-font-awesome-sass
-  - jekyll-bootstrap-sass
-
-bootstrap:
-  assets: true
-
-font-awesome:
-  assets: true
