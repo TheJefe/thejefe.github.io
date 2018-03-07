@@ -179,6 +179,9 @@ div.section:nth-child(odd) li:before{
     .navbar.shrink header {
         display: inline-flex;
     }
+    #project_tagline{
+        margin: 0px;
+    }
     .social-links{
         float: right;
         font-size: 30px;
@@ -189,6 +192,6 @@ div.section:nth-child(odd) li:before{
         transition: all 0.5s ease;
     }
     #main_content{
-        margin-top: 196px;
+        margin-top: 162px;
     }
 }
