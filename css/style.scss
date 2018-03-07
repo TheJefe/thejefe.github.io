@@ -10,6 +10,7 @@ body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
+
 nav.navbar{
     background: #212121;
     background: -moz-linear-gradient(top, #373737, #212121);
@@ -20,10 +21,46 @@ nav.navbar{
     // Animation
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    display: inline-block;
+    float: left;
 }
 
 nav.navbar.shrink {
     min-height: 50px;
+    padding: 0px;
+}
+
+.navbar header{
+    display: inline-block;
+    min-width: 638px;
+    max-width: 640px;
+    margin: 0 auto;
+    left: 340px;
+}
+
+.navbar.shrink header{
+    padding: 10px;
+}
+
+.social-links{
+    position: relative;
+    float: right;
+    font-size: 80px;
+    display: inline-flex;
+}
+
+.navbar.shrink .social-links{
+    font-size: 50px;
+    transition: all 0.5s ease;
+}
+
+.fa-twitter, .fa-github, .fa-linkedin{
+    color: white;
+    padding-right: 10px
+}
+
+.fa-twitter:hover, .fa-github:hover, .fa-linkedin:hover{
+    color: #18BC9C;
 }
 
 #profile_pic{
@@ -70,7 +107,7 @@ nav.navbar.shrink {
 }
 
 #main_content {
-    margin-top: 136px;
+    margin-top: 139px;
 }
 
 #footer_wrap {
