@@ -68,7 +68,7 @@ nav.navbar.shrink {
 }
 
 #main_content {
-    margin-top: 140px;
+    margin-top: 136px;
 }
 
 #footer_wrap {
@@ -109,4 +109,22 @@ li:before {
 
 hr{
     border-top: 5px solid #212121;
+}
+
+div.section:nth-child(odd) {
+    background-color: #18BC9C;
+    transform: translateX(-50%);
+    width: 100vw;
+    min-width: 100%;
+    left: 50%;
+    position: relative;
+    color: white;
+}
+
+div.section:nth-child(odd) hr {
+    border-top: 5px solid white;
+}
+
+div.section:nth-child(odd) a{
+    color: white;
 }
