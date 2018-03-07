@@ -1,8 +1,7 @@
 ---
 ---
-$fa-font-path: "{{ '/assets/fonts/font-awesome/' }}";
-$icon-font-path: "{{ '/assets/fonts/bootstrap/' }}";
-@import 'font-awesome';
+$icon-font-path: "/fonts/bootstrap/";
+@import "font-awesome";
 @import "bootstrap";
 
 body {
