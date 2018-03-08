@@ -29,15 +29,16 @@ nav.navbar.shrink {
 
 .navbar header{
     display: inline-block;
-    /* mix-width: 640px; */
-    /* max-width: 640px; */
-    width: 640px;
+    position: relative;
+    max-width: 640px;
     margin: 0 auto;
-    left: 340px;
+    white-space: nowrap;
+    padding-left: 18em;
 }
 
 .navbar.shrink header{
     padding: 10px;
+    padding-left: 18em;
 }
 
 .social-links{
@@ -170,14 +171,26 @@ div.section:nth-child(odd) li:before{
     color: white;
 }
 
-@media (max-width:700px){
+@media (min-width:819px) and (max-width: 1278px){
+    .navbar header{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 819px){
     .navbar header{
         width: auto;
         left: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
+        white-space: unset;
+        padding-left: 10px;
+    }
+    nav.navbar.shrink {
+        padding-left: 0px;
     }
     .navbar.shrink header {
         display: inline-flex;
+        padding-left: 10px;
     }
     #project_tagline{
         margin: 0px;
