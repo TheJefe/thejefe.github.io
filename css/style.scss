@@ -53,12 +53,12 @@ nav.navbar.shrink {
     transition: all 0.5s ease;
 }
 
-.fa-twitter, .fa-github, .fa-linkedin{
+.social-links svg{
     color: white;
     padding-right: 10px
 }
 
-.fa-twitter:hover, .fa-github:hover, .fa-linkedin:hover{
+.social-links svg:hover{
     color: #18BC9C;
 }
 
